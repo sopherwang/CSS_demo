@@ -1,8 +1,19 @@
 
 #product-overview {
-    background: url("freedom.jpg");
+    background: linear-gradient(to top, rgba(80, 68, 18, .6) 10%, transparent), url("freedom.jpg"), grey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: padding-box;
+    /*background-image: linear-gradient(30deg, red, blue, green, yellow, orange);*/
+    /*background-image: linear-gradient(30deg, red 30%, transparent);*/
+    /*background-image: radial-gradient(circle 100px at top left, red, blue, green);*/
     width: 100%;
     height: 528px;
+    position: relative;
+    margin-top: 43px;
+    border: 5px dashed red;
 }
 
 .section-title {
