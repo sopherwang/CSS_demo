@@ -25,6 +25,9 @@
     color: white;
     font-family: 'Anton', sans-serif;
     margin: 0;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
 }
 
 .plan__list {
